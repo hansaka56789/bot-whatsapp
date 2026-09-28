@@ -10,7 +10,7 @@ from neonize.utils.message import extract_text
 # SETTINGS
 # =========================================================
 
-PHONE_NUMBER = "947XXXXXXXX"   # මෙතන ඔයාගේ WhatsApp number එක දාන්න
+PHONE_NUMBER = "94762320234"   # මෙතන ඔයාගේ WhatsApp number එක දාන්න
 SESSION_FILE = "auth.db"
 
 
