@@ -1,9 +1,13 @@
+// fixed
+global.crypto = require('crypto').webcrypto
+
 const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys")
 const axios = require("axios")
 const P = require("pino")
 
 async function start() {
-    const { state, saveCreds } = await useMultiFileAuthState('auth')
+   const { state, saveCreds } = await useMultiFileAuthState('auth')
+   
     
     const sock = makeWASocket({
         auth: state,
